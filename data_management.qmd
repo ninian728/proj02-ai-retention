@@ -1,0 +1,12 @@
+---
+title: "data_management"
+format: html
+---
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(here)
+df <- read.csv("data/ai_adoption_dataset.csv")
+glimpse(df)
+```
